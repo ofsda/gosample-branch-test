@@ -38,6 +38,11 @@ func TestSample(t *testing.T) {
 			v:    5,
 			want: 6,
 		},
+		{
+			name: "test7",
+			v:    6,
+			want: 7,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
